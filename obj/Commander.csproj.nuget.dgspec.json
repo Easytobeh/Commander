@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\Commander.csproj": {}
+    "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\Commander.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\Commander.csproj": {
+    "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\Commander.csproj",
+        "projectUniqueName": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\Commander.csproj",
+        "projectPath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\Commander.csproj",
         "packagesPath": "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\obj\\",
+        "outputPath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -43,6 +43,28 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
