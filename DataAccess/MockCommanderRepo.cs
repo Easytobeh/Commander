@@ -8,7 +8,7 @@ namespace Commander.DataAccess
 {
     public class MockCommanderRepo : ICommanderRepository
     {
-        public IEnumerable<Command> GetAppsCommands()
+        public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>
             {

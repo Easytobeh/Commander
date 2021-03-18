@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Oq/hDpNS4LZNqyn0Sxv1GUtTSQRycgICIY9NyNush6rGDJyeg7xZMquhSgOlzKLB7zmivlZU/P31w1kmEI0PA==",
+  "dgSpecHash": "M2GHp6jOGAY/U2oofEos4Ew/AUpvEbdDbAzXdBy8ZwDyIH+qus12Sf8SWm24mCKcoMHpfn1nMLhZb9jmf+o9uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\Commander.csproj",
+  "projectFilePath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\Commander.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

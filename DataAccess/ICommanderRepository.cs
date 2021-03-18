@@ -7,7 +7,7 @@ namespace Commander.DataAccess
 {
     public interface ICommanderRepository
     {
-        IEnumerable<Command> GetAppsCommands();
+        IEnumerable<Command> GetAllCommands();
         Command GetCommandById(int id);
 
     }

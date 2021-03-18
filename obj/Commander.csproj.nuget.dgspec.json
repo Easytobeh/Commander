@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\Commander.csproj": {}
+    "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\Commander.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\Commander.csproj": {
+    "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\Commander.csproj",
+        "projectUniqueName": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\Commander.csproj",
+        "projectPath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\Commander.csproj",
         "packagesPath": "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\Commander\\obj\\",
+        "outputPath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -32,7 +32,8 @@ namespace Commander
 
             services.AddControllers();
 
-            services.AddScoped<ICommanderRepository, MockCommanderRepo>();
+            // services.AddScoped<ICommanderRepository, MockCommanderRepo>();
+            services.AddScoped<ICommanderRepository, SqlCommanderRepo>();
 
         }
 
