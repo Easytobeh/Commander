@@ -61,3 +61,5 @@ C:\Users\OloruntobiJunaid\source\repos\Commander\Commander\bin\Debug\netcoreapp3
 C:\Users\OloruntobiJunaid\source\repos\Commander\Commander\bin\Debug\netcoreapp3.1\Commander.pdb
 C:\Users\OloruntobiJunaid\source\repos\Commander\Commander\obj\Debug\netcoreapp3.1\Commander.csprojAssemblyReference.cache
 C:\Users\OloruntobiJunaid\source\repos\Commander\Commander\obj\Debug\netcoreapp3.1\Commander.genruntimeconfig.cache
+C:\Users\OloruntobiJunaid\source\repos\Commander\commander\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\OloruntobiJunaid\source\repos\Commander\commander\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

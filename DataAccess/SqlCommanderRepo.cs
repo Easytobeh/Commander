@@ -15,6 +15,15 @@ namespace Commander.DataAccess
             _context = context;
         }
 
+        public void CreateCommand(Command cmd)
+        {
+            if(cmd == null)
+            {
+                throw new ArgumentException(nameof(cmd));
+            }
+            _context.Commands.Add(cmd);
+        }
+
         public IEnumerable<Command> GetAllCommands()
         {
             return _context.Commands.ToList();
@@ -23,6 +32,11 @@ namespace Commander.DataAccess
         public Command GetCommandById(int id)
         {
             return _context.Commands.FirstOrDefault(predicate => predicate.Id == id);
+        }
+
+        public bool SaveChanges()
+        {
+           return (_context.SaveChanges() >= 0 );
         }
     }
 }

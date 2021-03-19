@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "M2GHp6jOGAY/U2oofEos4Ew/AUpvEbdDbAzXdBy8ZwDyIH+qus12Sf8SWm24mCKcoMHpfn1nMLhZb9jmf+o9uw==",
+  "dgSpecHash": "K9rGgpPBSrc/PPhxH/TDwnND2yoy+FyMGBsRWE+z0fA5MY3Eo7+LfxEKyHWSN8XMAC1IfS2DftL82Tx5L3YbKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\OloruntobiJunaid\\source\\repos\\Commander\\commander\\Commander.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -66,7 +68,7 @@
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\system.private.uri\\4.3.2\\system.private.uri.4.3.2.nupkg.sha512",
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\OloruntobiJunaid\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",

@@ -12,6 +12,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Commander.DataAccess;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 
 namespace Commander
 {
@@ -32,7 +33,8 @@ namespace Commander
 
             services.AddControllers();
 
-            // services.AddScoped<ICommanderRepository, MockCommanderRepo>();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            
             services.AddScoped<ICommanderRepository, SqlCommanderRepo>();
 
         }
