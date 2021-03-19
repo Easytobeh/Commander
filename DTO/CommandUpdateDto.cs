@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Commander.DTO
 {
-    public class CommandCreateDto
+    public class CommandUpdateDto
     {
-       // public int Id { get; set; }
+        // public int Id { get; set; }
 
         [Required]
         [MaxLength(250)]
