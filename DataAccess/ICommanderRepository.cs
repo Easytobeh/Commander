@@ -7,8 +7,16 @@ namespace Commander.DataAccess
 {
     public interface ICommanderRepository
     {
-        IEnumerable<Command> GetAppsCommands();
+        bool SaveChanges();
+
+        IEnumerable<Command> GetAllCommands();
+
         Command GetCommandById(int id);
 
+        void CreateCommand(Command cmd);
+
+        void UpdateCommand(Command cmd);
+
+        void DeleteCommand(Command cmd);
     }
 }

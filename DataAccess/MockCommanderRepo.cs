@@ -8,7 +8,17 @@ namespace Commander.DataAccess
 {
     public class MockCommanderRepo : ICommanderRepository
     {
-        public IEnumerable<Command> GetAppsCommands()
+        public void CreateCommand(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeleteCommand(Command cmd)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>
             {
@@ -24,6 +34,16 @@ namespace Commander.DataAccess
         {
             return new Command { Id = 0, HowTo = "Boil and egg", Line = "Boil water", Platform = "kettle and pan" };
            // throw new NotImplementedException();
+        }
+
+        public bool SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateCommand(Command cmd)
+        {
+            throw new NotImplementedException();
         }
     }
 }
